@@ -1,3 +1,4 @@
+rootProject.name = 'newRegistration'
 include 'embedded'
 include 'tomcat6x'
 include 'tomcat7x'
