@@ -1,0 +1,27 @@
+* {
+margin : 0;
+padding : 0;
+}
+a{
+text-decoration : none;
+}
+body{
+color : #191919;
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1em;
+}
+div.main_block{
+ display : inline-block;
+ width:90%;
+ line-height:38%%;
+}
+label{
+display: block;
+}
+input{
+display:block;
+margin-left: 42%;
+}
+div.main_div{
+text-align: center;
+}
