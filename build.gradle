@@ -5,15 +5,23 @@ apply plugin: 'eclipse'
 sourceCompatibility = JavaVersion.VERSION_1_6
 targetCompatibility = JavaVersion.VERSION_1_6
 
+webAppDirName = 'WebContent'
+
 repositories {
     mavenCentral()
 }
 
-webAppDirName = 'WebContent'
+repositories {
+  flatDir {
+            dirs "C:/Go Agent/pipelines/Testone/WebContent/WEB-INF/lib"
+        }
+ }
 
 dependencies {
     compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
     testCompile group: 'junit', name: 'junit', version: '4.+'
+  
+    compile fileTree(dir: 'C:/Go Agent/pipelines/Testone/WebContent/WEB-INF/lib', include: ['*.jar'])
 }
 
 war {
