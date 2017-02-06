@@ -12,7 +12,7 @@
 </head>
 <body class="main_content">
 <div class="main_div">
-<header class="">Registration Form</header>
+<header class="">Test Registration Form</header>
 <form name="reg_form" class="form" action="regform" method="post">
 <div class="main_block">
 <label for="first_name">First Name</label>
